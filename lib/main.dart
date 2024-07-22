@@ -9,9 +9,6 @@ import 'package:infoware/screens/product_screen.dart';
 import 'package:infoware/repositories/product_repo.dart';
 import 'package:infoware/screens/audio_player_screen.dart';
 
-
-// lib/main.dart
-
 void main() {
   final apiService = ApiService(baseUrl: AppConstants.baseUrl);
   final itemRepository = ProductRepository(apiService: apiService);
