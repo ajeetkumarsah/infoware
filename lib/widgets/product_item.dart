@@ -20,7 +20,7 @@ class ProductItemWidget extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.all(10),
         decoration: BoxDecoration(
-          color: AppColors.lightGrey,
+          color: Colors.white,
           borderRadius: BorderRadius.circular(28),
         ),
         padding: const EdgeInsets.symmetric(vertical: 12),
@@ -92,14 +92,6 @@ class ProductItemWidget extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(12),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey[300]!,
-                          offset: const Offset(0, 8),
-                          blurRadius: 6,
-                          spreadRadius: 6,
-                        ),
-                      ],
                     ),
                     padding: const EdgeInsets.all(4),
                     child: const Icon(
